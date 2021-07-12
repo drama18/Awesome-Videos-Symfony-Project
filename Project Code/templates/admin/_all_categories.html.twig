@@ -1,0 +1,15 @@
+<!-- edited category is only for Edit option -->
+<!-- it shows as selected option the category it belongs to -->
+<!-- for Creating category, nothing will be selected -->
+{% if editedCategory.parent is defined and editedCategory.parent == null %}
+    <option selected value="0">No parent</option>
+{% else %}
+    <option value="0">No parent</option>
+{% endif %}
+{% for category in categories.categorylist %}
+    {% if editedCategory.parent.getId() is defined and editedCategory.parent.getId() == category.id %}
+        <option selected value="{{category.id}}">{{category.name}}</option>
+    {% else %}
+        <option value="{{category.id}}">{{category.name}}</option>
+    {% endif %}
+{% endfor %}
