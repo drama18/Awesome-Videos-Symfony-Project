@@ -29,7 +29,7 @@ Then, you have access to:
 # Technology Stack
 The project was built using the Symfony framework (version 4).
 
-Front-End: Boostrap Framework (for CSS), JavaScript, AJAX Calls.
+Front-End: Boostrap Framework (for CSS), Twig files, JavaScript, AJAX Calls.
 
 Back-end: PHP, Doctrine ORM, MySQL.
 
