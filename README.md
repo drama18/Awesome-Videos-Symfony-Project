@@ -20,7 +20,7 @@ Then, you have access to:
 1. Add, edit or delete a category or subcategories.
 2. Upload, edit or delete videos.
 3. Change a video's category.
-4. Upload locally or through Viemo.
+4. Upload locally or through Vimeo.
 5. Check and, if needed, delete users.
 6. Check and, if needed, delete comments.
 7. Like, dislike and also check other's likes and dislikes on videos.
